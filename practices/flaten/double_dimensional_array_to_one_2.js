@@ -13,7 +13,7 @@ function double_to_one(collection)
         var fir_pls = src.indexOf(src[i]);
         if(fir_pls == i)
         {
-            arr_fin.push(src[i]);
+            arr_fin.push(parseInt(src[i]));
         }
     }
     return arr_fin;
